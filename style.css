@@ -237,5 +237,22 @@ margin:20px 40px;
 
 }
 
+#msgbox{
+    text-align: center;
+    display: none;
+    margin-top: 100px;
+}
+@media (max-width:1000px) {
+    #container1{
+        display:none;
+    }
+    #container2{
+        display:none;
+    }
+    #msgbox{
+        display: block;
+    }
+}
+
 
 
